@@ -115,7 +115,7 @@ h3{
     background-color: burlywood;
 }
 
-@media (min-width:400px){
+@media (min-width:100px){
     section{
         width: 98%;
         margin: 1%;

@@ -1,0 +1,123 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: maroon; #61122f;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #f6b319;
+  border-radius: 0;
+  border: 0;
+}
+
+
+
+.navbar-brand {
+  padding-top: 25px;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Lora', serif;
+  color: black; #557c3e;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+  
+ 
+}
+.navbar-brand h1:hover, .navbar-brand h1:focus {
+  text-decoration: none;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: darkgreen; #951C49;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a  {
+  font-size: 1.8em;
+}
+
+
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+h2{
+    text-align: center;
+    font-size: 4rem;
+    margin-bottom: 7vh;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+}
+section{
+    float: left;
+    width: 30.8%;
+    border-style: solid black ;
+    border-width: 2%;
+    box-sizing: border-box;
+    margin: 1.2%;
+    padding: 2vh;
+    padding-top: 14px;
+    background-color: darkgrey;
+    position: relative;
+
+    
+}
+
+p{
+color :black;
+padding-top: 15px;
+ font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+
+h3{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-style: solid;
+    border-width: 1px;
+    position: absolute;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    top: -21px;
+    right: -2px;
+    color: black;
+
+}
+#titlechicken{
+    background-color: lightpink;
+  
+}
+#titlebeef{
+    background-color: red;
+    
+    border-color: black;
+}
+#titlesushi{
+    background-color: burlywood;
+}
+
+@media (min-width:400px){
+    section{
+        width: 98%;
+        margin: 1%;
+    }
+}
